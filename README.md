@@ -13,5 +13,6 @@ How To:
 - You can download the captured image to your device by clicking on the download button
 - Remember, once an image is captured, if another image is captured the previous would be lost
 - For more help, click on the '?' button to get the instructions
+- The button to view the 'Photo-Editor' project on Codepen is provided
 
 Have fun clicking pictures!
