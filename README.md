@@ -1,7 +1,7 @@
 # Project-Camera
 Your everyday camera made with HTML-CSS-JS
 
-View a simulation on: https://codepen.io/piyushmohan/full/VwjdPVM
+Project link: https://piyushmohan01.github.io/Project-Camera/
 
 How To:
 - Once on the page, switch on the camera by clicking on the button 'ON'
