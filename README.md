@@ -15,4 +15,7 @@ How To:
 - For more help, click on the '?' button to get the instructions
 - The button to view the 'Photo-Editor' project on Codepen is provided
 
+Library used: Webcam-Easy
+Link to Library documentation: https://www.npmjs.com/package/webcam-easy
+
 Have fun clicking pictures!
