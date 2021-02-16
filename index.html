@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-Camera</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+  
+    <script type="text/javascript" src="https://unpkg.com/webcam-easy/dist/webcam-easy.min.js"></script>
+    
+    <div id="contents">
+    <div id="space">
+      <div class="circle a">
+        <div class="circle b"></div>
+        <div class="circle c">
+          <div class="semi1"></div>
+          <div id="len" class="circle d"></div>
+        </div>
+        <div id="fl" class="flash"></div>
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="big">Camera</div>
+        <div class="big2">Codepen</div>
+     </div>
+      <div class="oval"></div>
+      <div class="slide"></div>
+      <input type="button" class="button" onclick= "changecolor() , webcam.snap() , disp2() , click()"> 
+      <div class="smol">zx10</div>
+      <div id="line3"></div>
+      <div id="line4"></div>
+      <div id="line5"></div>
+      <div id="line6"></div>
+      <div id="gallery" class="gal"></div>
+      
+      <div id="light" class="state"></div>   
+      
+      <input type="button" id="galbutton" class="galbut" onclick=" webcam.start() , disp() , on()  " value="ON">   
+      
+   <input type="button" id="down" class="help" onclick="help() , drop()" value="?"> 
+      
+      <video id="webcam" autoplay playsinline></video> 
+  <canvas id="canvas" class="d-none"></canvas> 
+      
+          <input type="button" id="snap" class="click" onclick="webcam.stop(), hide() , off() " value="OFF"> 
+      
+          <div id="req" class="req">Switch ON the Camera</div>
+      
+      <div id="bottom" class="bottom">
+      <button onclick="download_image()" id="dload">Download Image</button> 
+        <button id="invert">
+          <a href="https://codepen.io/piyushmohan/full/KKVmYBv" target='_blank'>Try Photo Editor</a>
+        </button>
+      </div>
+      
+      <div id="message" class="message">
+        <p>Welcome to Online-Camera!</p>
+        <li>To get started, follow the given steps: </li>
+        <li>Switch on the camera</li>
+        <li>Allow Camera access when asked</li>
+        <li>Capture by clicking the Button</li>
+        <li>Click on Download to save your picture</li>
+        <li>Switch off the camera when done</li>
+        <li>You can toggle between help tab with '?'</li>
+        <li>You can try the Photo-Editor as well</li>
+        <li>Happy Clicking!</li>
+      
+      </div>
+      </div>
+
+      <script src="script.js"></script>
+  </body>
+</html>
